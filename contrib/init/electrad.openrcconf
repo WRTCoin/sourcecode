@@ -1,0 +1,26 @@
+# /etc/conf.d/worthlessd: config file for /etc/init.d/worthlessd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/worthless/worthless.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/worthlessd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/worthlessd.pid"
+
+# Where to write worthlessd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/worthlessd"
+
+# User and group to own worthlessd process
+#BITCOIND_USER="worthless"
+#BITCOIND_GROUP="worthless"
+
+# Path to worthlessd executable
+#BITCOIND_BIN="/usr/bin/worthlessd"
+
+# Nice value to run worthlessd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=worthless
+Comment=worthless P2P Cryptocurrency
+Comment[fr]=worthless, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=worthless, eşten eşe kriptografik sanal para birimi
+Exec=worthless-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/worthless;
+Categories=Office;Finance;
